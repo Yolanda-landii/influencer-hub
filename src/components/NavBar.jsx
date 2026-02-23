@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
@@ -15,11 +16,25 @@ function Navbar() {
 
         {/* Navigation Links */}
         <nav className={`navbar-links ${menuOpen ? "open" : ""}`}>
-          <a href="#home">Home</a>
-          <a href="#about">About Us</a>
-          <a href="#services">Services</a>
-          <a href="#pages">Pages</a>
-          <a href="#contact">Contact Us</a>
+          <NavLink to="/" onClick={() => setMenuOpen(false)}>
+            Home
+          </NavLink>
+
+          <NavLink to="/about" onClick={() => setMenuOpen(false)}>
+            About Us
+          </NavLink>
+
+          <NavLink to="/services" onClick={() => setMenuOpen(false)}>
+            Services
+          </NavLink>
+
+          {/* <NavLink to="/pages" onClick={() => setMenuOpen(false)}>
+            Pages
+          </NavLink> */}
+
+          <NavLink to="/contact" onClick={() => setMenuOpen(false)}>
+            Contact Us
+          </NavLink>
         </nav>
 
         {/* CTA Button */}

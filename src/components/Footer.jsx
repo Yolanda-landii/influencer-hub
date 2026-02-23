@@ -1,4 +1,11 @@
 import "./Footer.css";
+import {
+  FaInstagram,
+  FaTiktok,
+  FaXTwitter,
+  FaYoutube,
+  FaLinkedin,
+} from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -12,10 +19,25 @@ export default function Footer() {
           </p>
 
           <div className="socials">
-            <span>●</span>
-            <span>●</span>
-            <span>●</span>
-            <span>●</span>
+            <a href="#" aria-label="Instagram">
+              <FaInstagram />
+            </a>
+
+            <a href="#" aria-label="TikTok">
+              <FaTiktok />
+            </a>
+
+            <a href="#" aria-label="X">
+              <FaXTwitter />
+            </a>
+
+            <a href="#" aria-label="YouTube">
+              <FaYoutube />
+            </a>
+
+            <a href="#" aria-label="LinkedIn">
+              <FaLinkedin />
+            </a>
           </div>
         </div>
 

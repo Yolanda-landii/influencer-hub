@@ -1,23 +1,30 @@
 import "./Team.css";
-import amelia from "../assets/amelia.jpg";
-import david from "../assets/david.jpg";
-import sofia from "../assets/sofia.jpg";
+import Yolanda from "../assets/Yolanda.jpeg";
+import Rigo from "../assets/rigo.jpeg";
+import Bow from "../assets/creativebow.jpeg";
+
+import {
+  FaInstagram,
+  FaXTwitter,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa6";
 
 const team = [
   {
-    name: "Amelia Ross",
+    name: "King Landii",
     role: "Founder & CEO",
-    img: amelia,
+    img: Yolanda,
   },
   {
-    name: "David Kim",
+    name: "Rigo Lion",
     role: "Head of Strategy",
-    img: david,
+    img: Rigo,
   },
   {
-    name: "Sofia Martinez",
+    name: "Creative Bow",
     role: "Creative Director",
-    img: sofia,
+    img: Bow,
   },
 ];
 
@@ -25,7 +32,11 @@ export default function Team() {
   return (
     <section className="team">
       <span className="team-tag">+ Meet Team</span>
-      <h2>Experts Behind Every Successful<br />Campaign</h2>
+      <h2>
+        Experts Behind Every Successful
+        <br />
+        Campaign
+      </h2>
 
       <p className="team-desc">
         Our passionate team brings together creativity, data, and strategy
@@ -46,10 +57,21 @@ export default function Team() {
             </p>
 
             <div className="team-socials">
-              <span>●</span>
-              <span>●</span>
-              <span>●</span>
-              <span>●</span>
+              <a href="#" aria-label="Instagram">
+                <FaInstagram />
+              </a>
+
+              <a href="#" aria-label="X">
+                <FaXTwitter />
+              </a>
+
+              <a href="#" aria-label="LinkedIn">
+                <FaLinkedin />
+              </a>
+
+              <a href="#" aria-label="YouTube">
+                <FaYoutube />
+              </a>
             </div>
           </div>
         ))}

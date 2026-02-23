@@ -28,14 +28,25 @@
 
 .socials {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   margin-top: 1rem;
+}
+
+.socials a {
+  font-size: 1.4rem;
+  color: #bbb;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.socials a:hover {
+  color: #ff6b00;
+  transform: translateY(-3px);
 }
 
 .socials span {
   width: 28px;
   height: 28px;
-  background: #ff7a7a;
+  background: #990606;
   border-radius: 50%;
   display: inline-grid;
   place-items: center;
