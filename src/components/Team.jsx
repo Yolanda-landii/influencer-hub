@@ -1,7 +1,7 @@
 import "./Team.css";
 import Yolanda from "../assets/Yolanda.jpeg";
 import Rigo from "../assets/rigo.jpeg";
-import Bow from "../assets/creativebow.jpeg";
+import Bow from "../assets/CreativeBow.jpeg";
 
 import {
   FaInstagram,
