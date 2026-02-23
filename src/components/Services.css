@@ -1,0 +1,93 @@
+.services {
+  padding: 100px 20px;
+  background: #c0bdbd;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.services-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 70px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  color: #7b61ff;
+  font-weight: 600;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.services-left h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111;
+}
+
+.services-right p {
+  color: #555;
+  margin-bottom: 20px;
+  max-width: 450px;
+}
+
+.services-btn {
+  padding: 14px 30px;
+  background: #7b61ff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.services-btn:hover {
+  background: #5c46d6;
+}
+
+.services-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: rgb(199, 197, 197);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.card p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
