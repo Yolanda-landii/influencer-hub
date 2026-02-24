@@ -1,31 +1,36 @@
 import "./Influencer.css";
 
+
+import El from "../assets/El.jpeg";
+import Bow from "../assets/bow.jpeg";
+import Rigo from "../assets/Rigo1.jpeg";
+import Amo from "../assets/amo.jpeg";
+
 const influencers = [
   {
     name: "Elijah Shaai",
     handle: "@Elijahshaai",
     followers: "1.5M Followers",
-    image: "/src/assets/El.jpeg",
+    image: El, // Imported image
   },
   {
     name: "Creative Bow",
     handle: "@creativebow",
     followers: "742.8K Followers",
-    image: "/src/assets/bow.jpeg",
+    image: Bow, // Imported image
   },
   {
     name: "Rigo Lion",
     handle: "@rigo_lion",
     followers: "443.9K Followers",
-    image: "/src/assets/Rigo1.jpeg",
+    image: Rigo, // Imported image
   },
   {
     name: "Amohelang",
     handle: "@amohelang301",
     followers: "428K Followers",
-    image: "/src/assets/amo.jpeg",
+    image: Amo, // Imported image
   },
-  
 ];
 
 export default function Influencers() {
