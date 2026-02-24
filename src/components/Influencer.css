@@ -1,10 +1,10 @@
 .influencer {
   padding: 5rem 6rem;
   background: linear-gradient(135deg, #c0bdbd, #c0bdbd);
-  /* margin-top: -27rem; */
+  
 }
 
-.influencers h2 {
+.influencer h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
   color: #1f1f1f;
@@ -12,7 +12,7 @@
 
 .influencer-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 columns by default */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
   gap: 1.5rem;
 }
 
@@ -31,12 +31,11 @@
 
 .influencer-card img {
   width: 100%;
-  height: 260px;        /* desktop default */
+  height: 260px;     
   object-fit: cover;
   display: block;
 }
 
-/* Category + followers pill */
 .badge {
   position: absolute;
   top: 14px;
@@ -154,6 +153,28 @@
   opacity: 0.9;
 }
 
+@media (max-width: 900px) {
+  .influencer-wrapper {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .influencer-image img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .influencer-content h2 {
+    font-size: 32px;
+  }
+
+  .stats-card {
+    padding: 32px;
+    margin-top: 32px;
+  }
+}
+
 /* Mobile/Tablet Responsive */
 @media (max-width: 1200px) {
   .influencer {
@@ -164,18 +185,14 @@
 
 @media (max-width: 900px) {
   .influencer {
-    padding: 2rem 1.5rem;
-  }
-
-  .influencer-grid {
-    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
   }
 
   .influencer-card img {
-    height: 220px;      /* fixed height */
+    height: clamp(220px, 55vw, 300px);
     width: 100%;
-    object-fit: contain; /* 🔑 NO CROPPING */
-    background: #e5e5e5; /* optional soft background */
+    object-fit: cover;
+    object-position: center top;
   }
 
   .info h3 {
@@ -184,5 +201,11 @@
 
   .info p {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .influencer-grid {
+    grid-template-columns: 1fr;
   }
 }

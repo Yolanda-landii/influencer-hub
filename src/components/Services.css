@@ -62,7 +62,7 @@
 .card {
   background: rgb(199, 197, 197);
   border-radius: 20px;
-  padding: 25px;
+  padding: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   transition: 0.3s ease;
 }
@@ -74,10 +74,35 @@
 
 .card img {
   width: 100%;
-  height: 250px;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
+  aspect-ratio: 4 / 5;
+  height: auto;
+  background: rgb(199, 197, 197);
   border-radius: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 600px) {
+  .services {
+    padding: 60px 16px;
+  }
+
+  .services-cards {
+    gap: 20px;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 13px;
+  }
 }
 
 .card h3 {
