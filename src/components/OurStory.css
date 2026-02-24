@@ -94,3 +94,25 @@
     text-align: center;
   }
 }
+
+@media (max-width: 600px) {
+  .our-story-section {
+    padding: 72px 0 56px;
+  }
+
+  .influencer-wrapper {
+    gap: 32px;
+  }
+
+  .influencer-image img {
+    width: 100%;
+  }
+
+  .influencer-content h2 {
+    font-size: 28px;
+  }
+
+  .influencer-content p {
+    font-size: 14px;
+  }
+}

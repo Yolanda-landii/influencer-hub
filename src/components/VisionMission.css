@@ -97,3 +97,22 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 600px) {
+  .vision-mission {
+    padding: 4rem 1.5rem;
+  }
+
+  .mission-col h2 {
+    font-size: 1.8rem;
+  }
+
+  .vision-col p,
+  .mission-desc {
+    font-size: 0.95rem;
+  }
+
+  .mission-item {
+    align-items: flex-start;
+  }
+}
