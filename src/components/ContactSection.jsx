@@ -53,7 +53,7 @@ export default function ContactSection() {
               <span>📞</span>
               <div>
                 <p className="info-title">Phone Number</p>
-                <p className="highlight">+1 (212) 555-7890</p>
+                <p className="highlight">+27 69 766 7637</p>
               </div>
             </div>
 
@@ -69,7 +69,7 @@ export default function ContactSection() {
               <span>✉️</span>
               <div>
                 <p className="info-title">Email Address</p>
-                <p className="highlight">hello@socianza.com</p>
+                <p className="highlight">info@influencerhub.it.com</p>
               </div>
             </div>
           </div>
