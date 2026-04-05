@@ -20,14 +20,14 @@ export default function Services() {
 
           <div className="services-right">
             <p>
-              At YourAgency, we specialize in influencer-driven campaigns 
-              designed to amplify brand stories and deliver measurable 
-              business impact.
+              InfluencerHub specializes in influencer marketing campaigns, 
+              content creation, and artist management that elevate brand 
+              visibility and deliver measurable business outcomes.
             </p>
 
-            <button className="services-btn">
+            {/* <button className="services-btn">
               EXPLORE ALL SERVICES
-            </button>
+            </button> */}
           </div>
         </div>
 
@@ -54,10 +54,10 @@ export default function Services() {
 
           <div className="card">
             <img src={talentImg} alt="Talent Management" />
-            <h3>Talent Management</h3>
+            <h3>Artist Management</h3>
             <p>
-              End-to-end influencer support, from collaboration management 
-              to career growth and brand partnerships.
+              Comprehensive artist management services focused on career 
+              development, brand partnerships, and long-term growth.
             </p>
           </div>
 
