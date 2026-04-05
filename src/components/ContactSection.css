@@ -86,6 +86,20 @@ textarea:focus {
   border-color: var(--ih-primary);
 }
 
+.form-status {
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.form-status--ok {
+  color: #15803d;
+}
+
+.form-status--err {
+  color: #b91c1c;
+}
+
 /* Button */
 .submit-btn {
   margin-top: 10px;
@@ -104,8 +118,13 @@ textarea:focus {
   transition: 0.3s;
 }
 
-.submit-btn:hover {
+.submit-btn:hover:not(:disabled) {
   background: var(--ih-primary-hover);
+}
+
+.submit-btn:disabled {
+  opacity: 0.75;
+  cursor: not-allowed;
 }
 
 /* Contact Info Card */
