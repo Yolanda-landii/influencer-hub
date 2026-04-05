@@ -1,13 +1,12 @@
 .influencer {
   padding: 5rem 6rem;
-  background: linear-gradient(135deg, #c0bdbd, #c0bdbd);
-  
+  background: var(--ih-bg-section);
 }
 
 .influencer h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #1f1f1f;
+  color: var(--ih-text);
 }
 
 .influencer-grid {
@@ -20,7 +19,7 @@
   position: relative;
   border-radius: 18px;
   overflow: hidden;
-  background: #cccbcb;
+  background: var(--ih-bg-card);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease;
 }
@@ -40,7 +39,7 @@
   height: auto;
   aspect-ratio: 4 / 5;
   object-fit: contain;
-  background: #cccbcb;
+  background: var(--ih-bg-card);
   display: block;
 }
 
@@ -55,12 +54,12 @@
 }
 
 .badge span {
-  background: #ffffff;
+  background: var(--ih-white);
   padding: 6px 12px;
   border-radius: 999px;
   font-size: 0.75rem;
   font-weight: 600;
-  color: #111827;
+  color: var(--ih-text);
 }
 
 /* Name & handle */
@@ -76,13 +75,13 @@
 .info p {
   margin: 4px 0 0;
   font-size: 0.85rem;
-  color: #777;
+  color: var(--ih-text-soft);
 }
 
 .our-story-section {
   position: relative;
   padding: 100px 0 80px;
-  background: #c0bdbd;
+  background: var(--ih-bg-section);
   overflow: hidden;
 }
 
@@ -121,7 +120,7 @@
 
 /* Content */
 .section-tag {
-  color: #ff4d6d;
+  color: var(--ih-label);
   font-weight: 500;
   font-size: 14px;
 }
@@ -135,7 +134,7 @@
 
 .influencer-content p {
   font-size: 16px;
-  color: #555;
+  color: var(--ih-text-muted);
   max-width: 500px;
   line-height: 1.6;
 }

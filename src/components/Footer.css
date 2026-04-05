@@ -1,6 +1,6 @@
 .footer {
-  background: #7c5bd6;
-  color: #ffffff;
+  background: var(--ih-footer-bg);
+  color: var(--ih-white);
   padding: 5rem 6% 2rem;
 }
 
@@ -39,14 +39,14 @@
 }
 
 .socials a:hover {
-  color: #ff6b00;
+  color: var(--ih-primary-soft);
   transform: translateY(-3px);
 }
 
 .socials span {
   width: 28px;
   height: 28px;
-  background: #990606;
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   display: inline-grid;
   place-items: center;
@@ -77,9 +77,13 @@
   padding: 0.9rem 1.6rem;
   border-radius: 999px;
   border: none;
-  background: #ff7a7a;
-  color: white;
+  background: var(--ih-primary-light);
+  color: var(--ih-white);
   cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background: var(--ih-primary-soft);
 }
 
 /* Bottom */

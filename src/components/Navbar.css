@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  background: linear-gradient(135deg, #f3e8ff, #efe6ff);
+  background: linear-gradient(135deg, var(--ih-nav-from), var(--ih-nav-to));
   position: sticky;
   top: 0;
   z-index: 100;
@@ -36,18 +36,18 @@
 
 .navbar-links a {
   text-decoration: none;
-  color: #1f1f1f;
+  color: var(--ih-text);
   font-weight: 500;
 }
 
 .navbar-links a:hover {
-  color: #7c3aed;
+  color: var(--ih-primary);
 }
 
 /* CTA */
 .cta-button {
-  background: #ff6b6b;
-  color: white;
+  background: var(--ih-primary);
+  color: var(--ih-white);
   border: none;
   padding: 0.6rem 1.2rem;
   border-radius: 999px;
@@ -56,7 +56,7 @@
 }
 
 .cta-button:hover {
-  opacity: 0.9;
+  background: var(--ih-primary-hover);
 }
 
 /* Mobile */
@@ -73,7 +73,7 @@
     position: absolute;
     top: 70px;
     right: 0;
-    background: white;
+    background: var(--ih-white);
     flex-direction: column;
     width: 200px;
     padding: 1rem;

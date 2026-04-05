@@ -1,6 +1,6 @@
 .services {
   padding: 100px 20px;
-  background: #c0bdbd;
+  background: var(--ih-bg-section);
 }
 
 .services-container {
@@ -18,7 +18,7 @@
 }
 
 .tag {
-  color: #7b61ff;
+  color: var(--ih-label);
   font-weight: 600;
   font-size: 14px;
   display: block;
@@ -29,19 +29,19 @@
   font-size: 42px;
   font-weight: 700;
   line-height: 1.2;
-  color: #111;
+  color: var(--ih-text);
 }
 
 .services-right p {
-  color: #555;
+  color: var(--ih-text-muted);
   margin-bottom: 20px;
   max-width: 450px;
 }
 
 .services-btn {
   padding: 14px 30px;
-  background: #7b61ff;
-  color: white;
+  background: var(--ih-primary);
+  color: var(--ih-white);
   border: none;
   border-radius: 50px;
   font-weight: 600;
@@ -50,7 +50,7 @@
 }
 
 .services-btn:hover {
-  background: #5c46d6;
+  background: var(--ih-primary-hover);
 }
 
 .services-cards {
@@ -60,7 +60,7 @@
 }
 
 .card {
-  background: rgb(199, 197, 197);
+  background: var(--ih-bg-card-alt);
   border-radius: 20px;
   padding: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
@@ -78,7 +78,7 @@
   object-position: center;
   aspect-ratio: 4 / 5;
   height: auto;
-  background: rgb(199, 197, 197);
+  background: var(--ih-bg-card-alt);
   border-radius: 15px;
   margin-bottom: 12px;
 }
@@ -108,11 +108,11 @@
 .card h3 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #111;
+  color: var(--ih-text);
 }
 
 .card p {
-  color: #666;
+  color: var(--ih-text-soft);
   font-size: 14px;
   line-height: 1.6;
 }
