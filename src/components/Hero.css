@@ -44,7 +44,7 @@
   height: auto;
   object-fit: cover;
   border-radius: 16px;
-  background-color: #e6e6e6;
+  background-color: var(--ih-bg-form);
 }
 
 .hero .primary-btn {

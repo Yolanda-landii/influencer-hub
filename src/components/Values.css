@@ -3,12 +3,12 @@
   grid-template-columns: 1.1fr 1fr;
   gap: 4rem;
   padding: 6rem 6%;
-  background: #c0bdbd;
+  background: var(--ih-bg-section);
   align-items: center;
 }
 
 .values-tag {
-  color: #ff6b6b;
+  color: var(--ih-label);
   font-size: 0.8rem;
   font-weight: 600;
 }
@@ -16,12 +16,12 @@
 .values h2 {
   font-size: 2.5rem;
   margin: 1rem 0;
-  color: #111827;
+  color: var(--ih-text);
 }
 
 .values p {
   max-width: 520px;
-  color: #6b7280;
+  color: var(--ih-text-soft);
   margin-bottom: 2rem;
 }
 
@@ -38,8 +38,8 @@
 .value-card .icon {
   width: 44px;
   height: 44px;
-  background: #8b5cf6;
-  color: white;
+  background: var(--ih-primary);
+  color: var(--ih-white);
   border-radius: 50%;
   display: grid;
   place-items: center;

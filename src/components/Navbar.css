@@ -19,13 +19,13 @@
 .navbar-logo {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
   font-weight: 700;
   font-size: 1.2rem;
+  color: var(--ih-text);
 }
 
-.logo-icon {
-  font-size: 1.4rem;
+.logo-text-hub {
+  color: #ea580c;
 }
 
 /* Links */

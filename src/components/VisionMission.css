@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1.1fr 1.2fr;
   gap: 3rem;
   padding: 6rem 6%;
-  background: #c0bdbd;
+  background: var(--ih-bg-section);
   align-items: center;
 }
 
@@ -12,20 +12,21 @@
   display: inline-block;
   padding: 4px 12px;
   border-radius: 999px;
-  background: #ffffff;
+  background: var(--ih-white);
+  color: var(--ih-text);
   font-size: 0.75rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
 .tag.mission {
-  color: #ff6b6b;
+  color: var(--ih-label);
 }
 
 /* LEFT */
 .vision-col p {
   font-size: 1.05rem;
-  color: #374151;
+  color: var(--ih-text-muted);
   margin-bottom: 2rem;
 }
 
@@ -47,11 +48,11 @@
 .mission-col h2 {
   font-size: 2.2rem;
   margin: 1rem 0;
-  color: #111827;
+  color: var(--ih-text);
 }
 
 .mission-desc {
-  color: #6b7280;
+  color: var(--ih-text-soft);
   margin-bottom: 2rem;
 }
 
@@ -67,15 +68,15 @@
   gap: 1rem;
   padding: 1rem 1.2rem;
   border-radius: 14px;
-  border: 1px solid #ddd6fe;
+  border: 1px solid rgba(124, 58, 237, 0.25);
   background: rgba(155, 155, 155, 0.6);
 }
 
 .mission-item .icon {
   min-width: 42px;
   height: 42px;
-  background: #8b5cf6;
-  color: white;
+  background: var(--ih-primary);
+  color: var(--ih-white);
   border-radius: 50%;
   display: grid;
   place-items: center;

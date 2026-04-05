@@ -1,25 +1,25 @@
 .team {
   padding: 7rem 6%;
-  background: #c0bdbd;
+  background: var(--ih-bg-section);
   text-align: center;
 }
 
 .team-tag {
   font-size: 0.75rem;
   font-weight: 600;
-  color: #ff6b6b;
+  color: var(--ih-label);
 }
 
 .team h2 {
   font-size: 2.4rem;
   margin: 1rem 0;
-  color: #111827;
+  color: var(--ih-text);
 }
 
 .team-desc {
   max-width: 620px;
   margin: 0 auto 4rem;
-  color: #6b7280;
+  color: var(--ih-text-soft);
 }
 
 /* Grid */
@@ -46,14 +46,14 @@
 
 .team-card span {
   display: block;
-  color: #8b5cf6;
+  color: var(--ih-primary);
   font-size: 0.85rem;
   margin-bottom: 0.75rem;
 }
 
 .team-card p {
   font-size: 0.85rem;
-  color: #6b7280;
+  color: var(--ih-text-soft);
   margin-bottom: 1.5rem;
 }
 
@@ -68,10 +68,10 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: #8b5cf6;
+  background: var(--ih-primary);
   display: grid;
   place-items: center;
-  color: white;
+  color: var(--ih-white);
   font-size: 0.75rem;
 }
 

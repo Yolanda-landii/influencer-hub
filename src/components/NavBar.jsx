@@ -10,8 +10,9 @@ function Navbar() {
       <div className="navbar-container">
         {/* Logo */}
         <div className="navbar-logo">
-          <span className="logo-icon">🔥</span>
-          <span className="logo-text">InfluencerHub</span>
+          <span className="logo-text">
+            Influencer<span className="logo-text-hub">Hub</span>
+          </span>
         </div>
 
         {/* Navigation Links */}
