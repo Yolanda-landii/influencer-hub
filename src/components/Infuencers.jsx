@@ -14,56 +14,56 @@ const influencers = [
   {
     name: "Elijah Shaai",
     handle: "@Elijahshaai",
-    category: "Lifestyle",
+    // category: "Lifestyle",
     followers: "1.5M Followers",
     image: El, // Imported image
   },
   {
     name: "Creative Bow",
     handle: "@creativebow",
-    category: "Creative",
+    // category: "Creative",
     followers: "742.8K Followers",
     image: Bow, // Imported image
   },
   {
     name: "Rigo Lion",
     handle: "@rigo_lion",
-    category: "Entertainment",
+    // category: "Entertainment",
     followers: "443.9K Followers",
     image: Rigo, // Imported image
   },
   {
     name: "Amohelang",
     handle: "@amohelang301",
-    category: "Lifestyle",
+    // category: "Lifestyle",
     followers: "428K Followers",
     image: Amo, // Imported image
   },
   {
     name: "Keitu Mahlekgane",
     handle: "@tfourkeitu4",
-    category: "Fashion",
+    // category: "Fashion",
     followers: "694.9K Followers",
     image: Tfour, // Imported image
   },
   {
     name: "Le TwoSix",
     handle: "@le.twosix",
-    category: "Music",
+    // category: "Music",
     followers: "54.8K Followers",
     image: Twosix, // Imported image
   },
   {
     name: "Berrywagon ",
     handle: "@berry_wagon",
-    category: "Lifestyle",
+    // category: "Lifestyle",
     followers: "36.6K Followers",
     image: Berry, // Imported image
   },
   {
     name: "Kiddo Sleezy",
     handle: "@kiddosleezy2",
-    category: "Gaming",
+    // category: "Gaming",
     followers: "35.8K Followers",
     image: Kiddo, // Imported image
   },
@@ -81,7 +81,7 @@ export default function Influencers() {
               <img src={item.image} alt={item.name} />
 
               <div className="badge">
-                <span className="badge-category">{item.category}</span>
+                {/* <span className="badge-category">{item.category}</span> */}
                 <span className="badge-followers">{item.followers}</span>
               </div>
 

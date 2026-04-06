@@ -21,11 +21,7 @@ const team = [
     role: "Head of Strategy",
     img: Rigo,
   },
-  {
-    name: "Creative Bow",
-    role: "Creative Director",
-    img: Bow,
-  },
+  
 ];
 
 export default function Team() {
@@ -50,11 +46,6 @@ export default function Team() {
 
             <h4>{member.name}</h4>
             <span>{member.role}</span>
-
-            <p>
-              Hoc augue massa consectetur potenti hac. Ante lobortis
-              auctor vulputate sit nisl. Tempor diam ornare risus.
-            </p>
 
             <div className="team-socials">
               <a href="#" aria-label="Instagram">

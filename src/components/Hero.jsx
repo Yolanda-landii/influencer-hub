@@ -15,9 +15,9 @@ export default function Hero() {
           engage audiences, inspire action, and achieve meaningful, 
           measurable growth.
         </p>
-        <button type="button" className="primary-btn">
+        {/* <button type="button" className="primary-btn">
           Start a Campaign
-        </button>
+        </button> */}
       </div>
 
       <div className="hero-image">

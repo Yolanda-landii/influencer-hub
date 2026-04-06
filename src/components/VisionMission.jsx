@@ -32,7 +32,7 @@ export default function VisionMission() {
         <h2>Shaping The Future Of<br />Influencer Marketing</h2>
 
         <p className="mission-desc">
-          At Socianza, we focus on creating meaningful bridges between
+          At InfluencerHub, we focus on creating meaningful bridges between
           brands and audiences by aligning shared values and impactful
           campaigns.
         </p>

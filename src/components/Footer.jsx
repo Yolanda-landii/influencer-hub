@@ -47,10 +47,10 @@ export default function Footer() {
             <li>About Us</li>
             <li>Our Services</li>
             <li>Careers</li>
-            <li>Testimonials</li>
             <li>Contact</li>
           </ul>
         </div>
+        
 
         <div>
           <h4>Resources</h4>
@@ -61,7 +61,7 @@ export default function Footer() {
             <li>Webinars</li>
             <li>Support</li>
           </ul>
-        </div>
+        </div> 
 
         <div>
           <h4>Support</h4>
@@ -72,8 +72,8 @@ export default function Footer() {
             <li>Terms & Conditions</li>
             <li>Privacy Policy</li>
           </ul>
-        </div>
-      </div>
+        </div> 
+      </div> 
 
       <div className="footer-newsletter">
         <h3>Stay In Touch</h3>
